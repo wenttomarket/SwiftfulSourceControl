@@ -6,6 +6,15 @@
 //
 
 /*
+ 
+ Clone - copying the repo locally
+ Commit - save ("checkpoint") on our current stash
+ Stage - prepare changes for a commit
+ Stash - Save changes for later
+ Push - Send local commits
+ Pull - fetch remote commits to local repo
+ 
+ 
  COMMIT MESSAGES
  
  NEW FEATURE:
@@ -36,6 +45,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Swiftful!")
+            Text("My second branch!")
             
             Button("Click me") {
                 
